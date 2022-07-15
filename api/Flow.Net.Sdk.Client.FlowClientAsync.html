@@ -1,0 +1,1450 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FlowClientAsync
+   | Flow.Net SDK Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FlowClientAsync
+   | Flow.Net SDK Documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../flowdotnetfav.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../flowdotnetsmall.png" alt="Flow.Net">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Flow.Net.Sdk.Client.FlowClientAsync">
+  
+  
+  <h1 id="Flow_Net_Sdk_Client_FlowClientAsync" data-uid="Flow.Net.Sdk.Client.FlowClientAsync" class="text-break">Class FlowClientAsync
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">FlowClientAsync</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Flow.Net.Sdk.Client.html">Flow.Net.Sdk.Client</a></h6>
+  <h6><strong>Assembly</strong>: Flow.Net.Sdk.dll</h6>
+  <h5 id="Flow_Net_Sdk_Client_FlowClientAsync_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FlowClientAsync</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync__ctor_System_String_System_Boolean_System_Collections_Generic_IEnumerable_Grpc_Core_ChannelOption__System_Collections_Generic_Dictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.%23ctor(System.String%2CSystem.Boolean%2CSystem.Collections.Generic.IEnumerable%7BGrpc.Core.ChannelOption%7D%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L30">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync__ctor_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.#ctor*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync__ctor_System_String_System_Boolean_System_Collections_Generic_IEnumerable_Grpc_Core_ChannelOption__System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.#ctor(System.String,System.Boolean,System.Collections.Generic.IEnumerable{Grpc.Core.ChannelOption},System.Collections.Generic.Dictionary{System.String,System.String})">FlowClientAsync(String, Boolean, IEnumerable&lt;ChannelOption&gt;, Dictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>A gRPC client for the Flow Access API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlowClientAsync(string flowNetworkUrl, bool channelCredentialsSecureSsl = false, IEnumerable&lt;ChannelOption&gt; options = null, Dictionary&lt;string, string&gt; addressMap = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">flowNetworkUrl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">channelCredentialsSecureSsl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Grpc.Core.ChannelOption</span>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">addressMap</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtBlockHeightAsync_Flow_Net_Sdk_Models_FlowScript_System_UInt64_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtBlockHeightAsync(Flow.Net.Sdk.Models.FlowScript%2CSystem.UInt64%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L242">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtBlockHeightAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtBlockHeightAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtBlockHeightAsync_Flow_Net_Sdk_Models_FlowScript_System_UInt64_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtBlockHeightAsync(Flow.Net.Sdk.Models.FlowScript,System.UInt64,Grpc.Core.CallOptions)">ExecuteScriptAtBlockHeightAsync(FlowScript, UInt64, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Executes a ready-only Cadence script against the execution state at the given block height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;ICadence&gt; ExecuteScriptAtBlockHeightAsync(FlowScript script, ulong blockHeight, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowScript.html">FlowScript</a></td>
+        <td><span class="parametername">script</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">blockHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Cadence.ICadence.html">ICadence</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Cadence.ICadence.html">ICadence</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtBlockIdAsync_Flow_Net_Sdk_Models_FlowScript_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtBlockIdAsync(Flow.Net.Sdk.Models.FlowScript%2CGoogle.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L264">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtBlockIdAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtBlockIdAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtBlockIdAsync_Flow_Net_Sdk_Models_FlowScript_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtBlockIdAsync(Flow.Net.Sdk.Models.FlowScript,Google.Protobuf.ByteString,Grpc.Core.CallOptions)">ExecuteScriptAtBlockIdAsync(FlowScript, ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Executes a ready-only Cadence script against the execution state at the block with the given Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;ICadence&gt; ExecuteScriptAtBlockIdAsync(FlowScript script, ByteString blockId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowScript.html">FlowScript</a></td>
+        <td><span class="parametername">script</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">blockId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Cadence.ICadence.html">ICadence</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Cadence.ICadence.html">ICadence</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtLatestBlockAsync_Flow_Net_Sdk_Models_FlowScript_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtLatestBlockAsync(Flow.Net.Sdk.Models.FlowScript%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L220">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtLatestBlockAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtLatestBlockAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_ExecuteScriptAtLatestBlockAsync_Flow_Net_Sdk_Models_FlowScript_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ExecuteScriptAtLatestBlockAsync(Flow.Net.Sdk.Models.FlowScript,Grpc.Core.CallOptions)">ExecuteScriptAtLatestBlockAsync(FlowScript, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Executes a read-only Cadence script against the latest sealed execution state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;ICadence&gt; ExecuteScriptAtLatestBlockAsync(FlowScript script, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowScript.html">FlowScript</a></td>
+        <td><span class="parametername">script</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Cadence.ICadence.html">ICadence</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Cadence.ICadence.html">ICadence</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetAccountAtBlockHeightAsync_Flow_Net_Sdk_Models_FlowAddress_System_UInt64_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetAccountAtBlockHeightAsync(Flow.Net.Sdk.Models.FlowAddress%2CSystem.UInt64%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L531">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetAccountAtBlockHeightAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetAccountAtBlockHeightAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetAccountAtBlockHeightAsync_Flow_Net_Sdk_Models_FlowAddress_System_UInt64_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetAccountAtBlockHeightAsync(Flow.Net.Sdk.Models.FlowAddress,System.UInt64,Grpc.Core.CallOptions)">GetAccountAtBlockHeightAsync(FlowAddress, UInt64, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets an account by address at the given block height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowAccount&gt; GetAccountAtBlockHeightAsync(FlowAddress address, ulong blockHeight, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowAddress.html">FlowAddress</a></td>
+        <td><span class="parametername">address</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">blockHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowAccount.html">FlowAccount</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowAccount.html">FlowAccount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetAccountAtLatestBlockAsync_Flow_Net_Sdk_Models_FlowAddress_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetAccountAtLatestBlockAsync(Flow.Net.Sdk.Models.FlowAddress%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L506">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetAccountAtLatestBlockAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetAccountAtLatestBlockAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetAccountAtLatestBlockAsync_Flow_Net_Sdk_Models_FlowAddress_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetAccountAtLatestBlockAsync(Flow.Net.Sdk.Models.FlowAddress,Grpc.Core.CallOptions)">GetAccountAtLatestBlockAsync(FlowAddress, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets an account by address at the latest sealed block.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowAccount&gt; GetAccountAtLatestBlockAsync(FlowAddress address, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowAddress.html">FlowAddress</a></td>
+        <td><span class="parametername">address</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowAccount.html">FlowAccount</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowAccount.html">FlowAccount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetBlockByHeightAsync_System_UInt64_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetBlockByHeightAsync(System.UInt64%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L99">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockByHeightAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockByHeightAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockByHeightAsync_System_UInt64_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockByHeightAsync(System.UInt64,Grpc.Core.CallOptions)">GetBlockByHeightAsync(UInt64, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets a full block by height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowBlock&gt; GetBlockByHeightAsync(ulong blockHeight, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">blockHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlock.html">FlowBlock</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowBlock.html">FlowBlock</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetBlockByIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetBlockByIdAsync(Google.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L123">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockByIdAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockByIdAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockByIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockByIdAsync(Google.Protobuf.ByteString,Grpc.Core.CallOptions)">GetBlockByIdAsync(ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets a full block by Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowBlock&gt; GetBlockByIdAsync(ByteString blockId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">blockId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlock.html">FlowBlock</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowBlock.html">FlowBlock</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetBlockHeaderByHeightAsync_System_UInt64_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetBlockHeaderByHeightAsync(System.UInt64%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L171">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockHeaderByHeightAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockHeaderByHeightAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockHeaderByHeightAsync_System_UInt64_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockHeaderByHeightAsync(System.UInt64,Grpc.Core.CallOptions)">GetBlockHeaderByHeightAsync(UInt64, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets a block header by height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowBlockHeader&gt; GetBlockHeaderByHeightAsync(ulong blockHeaderHeight, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">blockHeaderHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlockHeader.html">FlowBlockHeader</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowBlockHeader.html">FlowBlockHeader</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetBlockHeaderByIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetBlockHeaderByIdAsync(Google.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L195">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockHeaderByIdAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockHeaderByIdAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetBlockHeaderByIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetBlockHeaderByIdAsync(Google.Protobuf.ByteString,Grpc.Core.CallOptions)">GetBlockHeaderByIdAsync(ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets a block header by Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowBlockHeader&gt; GetBlockHeaderByIdAsync(ByteString blockHeaderId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">blockHeaderId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlockHeader.html">FlowBlockHeader</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowBlockHeader.html">FlowBlockHeader</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetCollectionByIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetCollectionByIdAsync(Google.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L419">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetCollectionByIdAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetCollectionByIdAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetCollectionByIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetCollectionByIdAsync(Google.Protobuf.ByteString,Grpc.Core.CallOptions)">GetCollectionByIdAsync(ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets a collection by Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowCollectionResponse&gt; GetCollectionByIdAsync(ByteString collectionId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowCollectionResponse.html">FlowCollectionResponse</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowCollectionResponse.html">FlowCollectionResponse</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetEventsForBlockIdsAsync_System_String_System_Collections_Generic_IEnumerable_Google_Protobuf_ByteString__Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetEventsForBlockIdsAsync(System.String%2CSystem.Collections.Generic.IEnumerable%7BGoogle.Protobuf.ByteString%7D%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L315">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetEventsForBlockIdsAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetEventsForBlockIdsAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetEventsForBlockIdsAsync_System_String_System_Collections_Generic_IEnumerable_Google_Protobuf_ByteString__Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetEventsForBlockIdsAsync(System.String,System.Collections.Generic.IEnumerable{Google.Protobuf.ByteString},Grpc.Core.CallOptions)">GetEventsForBlockIdsAsync(String, IEnumerable&lt;ByteString&gt;, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Retrieves events with the given type from the specified block Ids.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;FlowBlockEvent&gt;&gt; GetEventsForBlockIdsAsync(string eventType, IEnumerable&lt;ByteString&gt; blockIds, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Google.Protobuf.ByteString</span>&gt;</td>
+        <td><span class="parametername">blockIds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlockEvent.html">FlowBlockEvent</a>&gt;&gt;</td>
+        <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a> of type <a class="xref" href="Flow.Net.Sdk.Models.FlowBlockEvent.html">FlowBlockEvent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetEventsForHeightRangeAsync_System_String_System_UInt64_System_UInt64_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetEventsForHeightRangeAsync(System.String%2CSystem.UInt64%2CSystem.UInt64%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L286">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetEventsForHeightRangeAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetEventsForHeightRangeAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetEventsForHeightRangeAsync_System_String_System_UInt64_System_UInt64_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetEventsForHeightRangeAsync(System.String,System.UInt64,System.UInt64,Grpc.Core.CallOptions)">GetEventsForHeightRangeAsync(String, UInt64, UInt64, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Retrieves events for all sealed blocks between the start and end block heights (inclusive) with the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IEnumerable&lt;FlowBlockEvent&gt;&gt; GetEventsForHeightRangeAsync(string eventType, ulong startHeight, ulong endHeight, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">eventType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">startHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">endHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlockEvent.html">FlowBlockEvent</a>&gt;&gt;</td>
+        <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a> of type <a class="xref" href="Flow.Net.Sdk.Models.FlowBlockEvent.html">FlowBlockEvent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetExecutionResultForBlockIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetExecutionResultForBlockIdAsync(Google.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L443">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetExecutionResultForBlockIdAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetExecutionResultForBlockIdAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetExecutionResultForBlockIdAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetExecutionResultForBlockIdAsync(Google.Protobuf.ByteString,Grpc.Core.CallOptions)">GetExecutionResultForBlockIdAsync(ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Retrieves execution result for the specified block Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowExecutionResultForBlockIdResponse&gt; GetExecutionResultForBlockIdAsync(ByteString blockId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">blockId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowExecutionResultForBlockIdResponse.html">FlowExecutionResultForBlockIdResponse</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowExecutionResultForBlockIdResponse.html">FlowExecutionResultForBlockIdResponse</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetLatestBlockAsync_System_Boolean_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetLatestBlockAsync(System.Boolean%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L75">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetLatestBlockAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetLatestBlockAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetLatestBlockAsync_System_Boolean_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetLatestBlockAsync(System.Boolean,Grpc.Core.CallOptions)">GetLatestBlockAsync(Boolean, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets the full payload of the latest sealed or unsealed block.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowBlock&gt; GetLatestBlockAsync(bool isSealed = true, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isSealed</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlock.html">FlowBlock</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowBlock.html">FlowBlock</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetLatestBlockHeaderAsync_System_Boolean_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetLatestBlockHeaderAsync(System.Boolean%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L147">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetLatestBlockHeaderAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetLatestBlockHeaderAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetLatestBlockHeaderAsync_System_Boolean_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetLatestBlockHeaderAsync(System.Boolean,Grpc.Core.CallOptions)">GetLatestBlockHeaderAsync(Boolean, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets the latest sealed or unsealed block header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowBlockHeader&gt; GetLatestBlockHeaderAsync(bool isSealed = true, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isSealed</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowBlockHeader.html">FlowBlockHeader</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowBlockHeader.html">FlowBlockHeader</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetLatestProtocolStateSnapshotAsync_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetLatestProtocolStateSnapshotAsync(Grpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L467">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetLatestProtocolStateSnapshotAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetLatestProtocolStateSnapshotAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetLatestProtocolStateSnapshotAsync_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetLatestProtocolStateSnapshotAsync(Grpc.Core.CallOptions)">GetLatestProtocolStateSnapshotAsync(CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the latest snapshot of the protocol state in serialized form.
+This is used to generate a root snapshot file used by Flow nodes to bootstrap their local protocol state database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowProtocolStateSnapshotResponse&gt; GetLatestProtocolStateSnapshotAsync(CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowProtocolStateSnapshotResponse.html">FlowProtocolStateSnapshotResponse</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowProtocolStateSnapshotResponse.html">FlowProtocolStateSnapshotResponse</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetNetworkParametersAsync_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetNetworkParametersAsync(Grpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L486">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetNetworkParametersAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetNetworkParametersAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetNetworkParametersAsync_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetNetworkParametersAsync(Grpc.Core.CallOptions)">GetNetworkParametersAsync(CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Retrieves network parameters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowGetNetworkParametersResponse&gt; GetNetworkParametersAsync(CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowGetNetworkParametersResponse.html">FlowGetNetworkParametersResponse</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowGetNetworkParametersResponse.html">FlowGetNetworkParametersResponse</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetTransactionAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetTransactionAsync(Google.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L371">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetTransactionAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetTransactionAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetTransactionAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetTransactionAsync(Google.Protobuf.ByteString,Grpc.Core.CallOptions)">GetTransactionAsync(ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets a transaction by Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowTransactionResponse&gt; GetTransactionAsync(ByteString transactionId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">transactionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowTransactionResponse.html">FlowTransactionResponse</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowTransactionResponse.html">FlowTransactionResponse</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_GetTransactionResultAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.GetTransactionResultAsync(Google.Protobuf.ByteString%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L395">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_GetTransactionResultAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetTransactionResultAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_GetTransactionResultAsync_Google_Protobuf_ByteString_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.GetTransactionResultAsync(Google.Protobuf.ByteString,Grpc.Core.CallOptions)">GetTransactionResultAsync(ByteString, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets the result of a transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowTransactionResult&gt; GetTransactionResultAsync(ByteString transactionId, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Google.Protobuf.ByteString</span></td>
+        <td><span class="parametername">transactionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowTransactionResult.html">FlowTransactionResult</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowTransactionResult.html">FlowTransactionResult</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_PingAsync_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.PingAsync(Grpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L57">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_PingAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.PingAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_PingAsync_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.PingAsync(Grpc.Core.CallOptions)">PingAsync(CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Check if the access node is alive and healthy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task PingAsync(CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_ReadAccountFromConfigAsync_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.ReadAccountFromConfigAsync(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L581">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_ReadAccountFromConfigAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ReadAccountFromConfigAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_ReadAccountFromConfigAsync_System_String_System_String_System_String_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.ReadAccountFromConfigAsync(System.String,System.String,System.String)">ReadAccountFromConfigAsync(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the specified account from the flow.json file and generates signers where private keys exist</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowAccount&gt; ReadAccountFromConfigAsync(string accountName, string configFileName = null, string configPath = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">accountName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">configFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">configPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowAccount.html">FlowAccount</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowAccount.html">FlowAccount</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_SendTransactionAsync_Flow_Net_Sdk_Models_FlowTransaction_Grpc_Core_CallOptions_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.SendTransactionAsync(Flow.Net.Sdk.Models.FlowTransaction%2CGrpc.Core.CallOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L345">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_SendTransactionAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.SendTransactionAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_SendTransactionAsync_Flow_Net_Sdk_Models_FlowTransaction_Grpc_Core_CallOptions_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.SendTransactionAsync(Flow.Net.Sdk.Models.FlowTransaction,Grpc.Core.CallOptions)">SendTransactionAsync(FlowTransaction, CallOptions)</h4>
+  <div class="markdown level1 summary"><p>Submits a transaction to the network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowSendTransactionResponse&gt; SendTransactionAsync(FlowTransaction transaction, CallOptions options = default(CallOptions))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowTransaction.html">FlowTransaction</a></td>
+        <td><span class="parametername">transaction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Grpc.Core.CallOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowSendTransactionResponse.html">FlowSendTransactionResponse</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowSendTransactionResponse.html">FlowSendTransactionResponse</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync_WaitForSealAsync_Flow_Net_Sdk_Models_FlowSendTransactionResponse_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync.WaitForSealAsync(Flow.Net.Sdk.Models.FlowSendTransactionResponse%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L557">View Source</a>
+  </span>
+  <a id="Flow_Net_Sdk_Client_FlowClientAsync_WaitForSealAsync_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.WaitForSealAsync*"></a>
+  <h4 id="Flow_Net_Sdk_Client_FlowClientAsync_WaitForSealAsync_Flow_Net_Sdk_Models_FlowSendTransactionResponse_System_Int32_System_Int32_" data-uid="Flow.Net.Sdk.Client.FlowClientAsync.WaitForSealAsync(Flow.Net.Sdk.Models.FlowSendTransactionResponse,System.Int32,System.Int32)">WaitForSealAsync(FlowSendTransactionResponse, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Waits for transaction result status to be sealed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;FlowTransactionResult&gt; WaitForSealAsync(FlowSendTransactionResponse transactionResponse, int delayMs = 1000, int timeoutMs = 30000)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Flow.Net.Sdk.Models.FlowSendTransactionResponse.html">FlowSendTransactionResponse</a></td>
+        <td><span class="parametername">transactionResponse</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">delayMs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">timeoutMs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Flow.Net.Sdk.Models.FlowTransactionResult.html">FlowTransactionResult</a>&gt;</td>
+        <td><p><a class="xref" href="Flow.Net.Sdk.Models.FlowTransactionResult.html">FlowTransactionResult</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/adhurjaty/flow.net/new/main/apiSpec/new?filename=Flow_Net_Sdk_Client_FlowClientAsync.md&amp;value=---%0Auid%3A%20Flow.Net.Sdk.Client.FlowClientAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adhurjaty/flow.net/blob/main/src/Flow.Net.SDK/Client/FlowClientAsync.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
